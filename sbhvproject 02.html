@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport">
+  <title>Order Now!!!</title>
+  <link rel="stylesheet" href="project 02.css">
+</head>
+
+<body>
+   
+<h1>Place out your order now!!!</h1>
+<form id="order-form" method="post">
+<fieldset>
+    <p>Select order; </p>
+    <label><input required id="Tea" class="items" type="checkbox">Black Tea</label>
+    <label><input id="Tea" class="items" type="checkbox">Chamomile Tea</label>
+    <label><input id="Tea" class="items" type="checkbox">Green Tea</label>
+    <label><input id="Tea" class="items" type="checkbox">Karak Tea</label>
+    <label><input id="Tea" class="items" type="checkbox">Touareg Tea</label>
+    <label><input id="Tea" class="items" type="checkbox">Masala Chai</label>
+    <label><input id="Tea" class="items" type="checkbox">Blue Mallow Tea</label>
+    <label><input id="Tea" class="items" type="checkbox">Rose Tea</label>
+</fieldset>
+
+<fieldset>
+    <p>Select Quantity; </p> 
+    <label>Black Tea<input required id="Quantity" class="quantity" type="number" min="1" max="7"></label>
+    <label>Chamomile Tea<input id="Quantity" class="quantity" type="number" min="1" max="7"></label>
+    <label>Green Tea<input id="Quantity" class="quantity" type="number" min="1" max="7"></label>
+    <label>Karak Tea<input id="Quantity" class="quantity" type="number" min="1" max="7"></label>
+    <label>Touareg Tea<input id="Quantity" class="quantity" type="number" min="1" max="7"></label>
+    <label>Masala Chai<input id="Quantity" class="quantity" type="number" min="1" max="7"></label>
+    <label>Blue Mallow Tea<input id="Quantity" class="quantity" type="number" min="1" max="7"></label>
+    <label>Rose Tea<input id="Quantity" class="quantity" type="number" min="1" max="7"></label>
+</fieldset>
+
+<fieldset class="info">
+    <p>Please fill the required information to complete your order: </p>
+    <label>Your name: <input required id="info-name" class="info" type="text"></label>
+    <label>Your address: <input required id="info-address" class="info" type="text"></label>
+    <label>Your email: <input id="info-email" placeholder="optional" class="info" type="email"></label>
+    <label>Your Phone Number: <input id="info-callerid" class="info" type="number"></label>
+</fieldset>
+<label><input id="order" type="submit" value="Order"></label>
+</form>
+
+</body>
+
+</html>
